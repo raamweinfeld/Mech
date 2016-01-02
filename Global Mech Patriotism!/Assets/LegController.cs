@@ -16,6 +16,6 @@ public class LegController : MonoBehaviour {
     {
         float legMovement = Input.GetAxis("Vertical");
 
-        rb.AddForce(Vector3.forward * legMovement * 100);
+        rb.AddForce(Vector3.forward * legMovement * 1000);
 	}
 }
